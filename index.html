@@ -1,35 +1,99 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PrimePath Freight</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f7f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0a2540;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+      color: #0a2540;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: #0a2540;
+    }
+    .card p {
+      font-size: 0.95rem;
+    }
+    footer {
+      background: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="logo">PrimePath Freight</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Your Trusted Freight Forwarding Partner</h1>
-      <p>Fast, Reliable, and Secure Cargo Solutions Worldwide</p>
-      <a href="contact.html" class="btn">Get a Quote</a>
+    <h1>PrimePath Freight</h1>
+    <p>Your trusted logistics and freight forwarding partner</p>
+  </header>  <section>
+    <div class="section-title">Our Services</div>
+    <div class="feature-grid">
+      <div class="card">
+        <h3>International Freight Forwarding</h3>
+        <p>We handle export shipments globally, ensuring fast and reliable delivery.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Clearance</h3>
+        <p>Complete assistance with all documentation and legal compliance for your cargo.</p>
+      </div>
+      <div class="card">
+        <h3>Door-to-Door Delivery</h3>
+        <p>We offer pickup and final delivery at your destination with full tracking.</p>
+      </div>
     </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 PrimePath Freight. All rights reserved.</p>
+  </section>  <section>
+    <div class="section-title">Contact Us</div>
+    <p><strong>Location:</strong> Khanpur Pacca</p>
+    <p><strong>Phone:</strong> 0329-2543942</p>
+    <p><strong>Email:</strong> shukr7226@gmail.com</p>
+  </section>  <footer>
+    &copy; 2025 PrimePath Freight. All rights reserved.
   </footer>
 </body>
 </html>
