@@ -1,99 +1,39 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PrimePath Freight</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
-    body {
-      background-color: #f7f9fb;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #0a2540;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    header p {
-      font-size: 1rem;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    .section-title {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      font-weight: 600;
-      color: #0a2540;
-    }
-    .feature-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: white;
-      border-radius: 1rem;
-      padding: 1.5rem;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-    }
-    .card h3 {
-      margin-bottom: 0.5rem;
-      color: #0a2540;
-    }
-    .card p {
-      font-size: 0.95rem;
-    }
-    footer {
-      background: #0a2540;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 3rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
     <h1>PrimePath Freight</h1>
-    <p>Your trusted logistics and freight forwarding partner</p>
-  </header>  <section>
-    <div class="section-title">Our Services</div>
-    <div class="feature-grid">
-      <div class="card">
-        <h3>International Freight Forwarding</h3>
-        <p>We handle export shipments globally, ensuring fast and reliable delivery.</p>
-      </div>
-      <div class="card">
-        <h3>Custom Clearance</h3>
-        <p>Complete assistance with all documentation and legal compliance for your cargo.</p>
-      </div>
-      <div class="card">
-        <h3>Door-to-Door Delivery</h3>
-        <p>We offer pickup and final delivery at your destination with full tracking.</p>
-      </div>
-    </div>
-  </section>  <section>
-    <div class="section-title">Contact Us</div>
-    <p><strong>Location:</strong> Khanpur Pacca</p>
-    <p><strong>Phone:</strong> 0329-2543942</p>
-    <p><strong>Email:</strong> shukr7226@gmail.com</p>
-  </section>  <footer>
-    &copy; 2025 PrimePath Freight. All rights reserved.
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Your Reliable Freight Partner</h2>
+      <p>We provide fast, reliable, and efficient freight forwarding services.</p>
+      <a href="contact.html" class="cta-button">Get in Touch</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PrimePath Freight. All rights reserved.</p>
+    <p>Call us: <strong>0329-2543942</strong></p>
+    <a href="https://wa.me/923292543942" target="_blank">
+      <img src="https://img.icons8.com/color/24/000000/whatsapp--v1.png" alt="WhatsApp Icon" style="vertical-align: middle;" />
+      WhatsApp Us
+    </a>
   </footer>
 </body>
 </html>
