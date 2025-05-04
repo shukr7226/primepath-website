@@ -1,93 +1,44 @@
 /* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-}
+{ margin: 0; padding: 0; box-sizing: border-box; }
 
-/* Header */
-header {
-  background-color: #004899;
-  color: white;
-  padding: 1rem 0;
-  text-align: center;
-}
 
-header h1 {
-  font-size: 2rem;
-}
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f9f9f9; color: #333; line-height: 1.6; }
 
-nav {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  background-color: #004899;
-}
+header { background-color: #004899; color: white; padding: 1.5rem; text-align: center; }
 
-nav a {
-  color: white;
-  padding: 1rem;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
+header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
 
-nav a:hover {
-  background-color: #0066cc;
-}
+nav ul { display: flex; justify-content: center; list-style: none; flex-wrap: wrap; padding: 0; }
 
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 4rem 1rem;
-  background-color: #f4f4f4;
-}
+nav li { margin: 0 1rem; }
 
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #004899;
-}
+nav a { color: white; text-decoration: none; font-weight: bold; padding: 0.5rem 1rem; transition: background-color 0.3s; }
 
-.hero p {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-  color: #555;
-}
+nav a:hover { background-color: #0066cc; border-radius: 5px; }
 
-.hero button {
-  background-color: orange;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
+.hero { text-align: center; padding: 3rem 1rem; background-color: #fff; }
 
-.hero button:hover {
-  background-color: #e69500;
-}
+.hero-img { max-width: 100%; height: auto; border-radius: 15px; margin-bottom: 2rem; }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .hero h2 {
-    font-size: 1.8rem;
-  }
+.hero h2 { font-size: 2.5rem; color: #004899; margin-bottom: 1rem; }
 
-  nav {
-    flex-direction: column;
-  }
+.hero p { font-size: 1.2rem; margin-bottom: 1.5rem; }
 
-  nav a {
-    padding: 0.75rem;
-  }
-}
+.cta-button { display: inline-block; background-color: orange; color: white; padding: 0.75rem 1.5rem; border-radius: 5px; text-decoration: none; font-size: 1rem; transition: background-color 0.3s; }
+
+.cta-button:hover { background-color: #e69500; }
+
+.about, .services, .contact { padding: 3rem 1rem; text-align: center; background-color: #f4f4f4; margin-top: 2rem; }
+
+.about h2, .services h2, .contact h2 { color: #004899; margin-bottom: 1rem; font-size: 2rem; }
+
+.service-grid { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; }
+
+.service-box { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); width: 280px; text-align: center; }
+
+.service-box img { height: 50px; margin-bottom: 1rem; }
+
+footer { background-color: #004899; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+
+                   
